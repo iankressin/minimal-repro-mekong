@@ -1,0 +1,8 @@
+[package]
+name = "minimal-repro-mekong"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { version = "0.6.4", features = ["std", "contract", "provider-http", "network", "rpc-types"] }
+tokio = { version = "1", features = ["full"] }
